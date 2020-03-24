@@ -8,4 +8,12 @@ Install Java
 Variables on PC (win7)
     Control Panel\All Control Panel Items\System
     Advanced syst set.
-New file
+New JAVA file
+Prohramm compilaion
+javac from JDK
+    cd.. - 1 step up
+    C:\>cd \Dropbox\_TMP tekushj\Git-K\java1\
+    javac HelloWorld.java
+Start programm
+java HelloWorld
+Registr important
