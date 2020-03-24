@@ -1,3 +1,18 @@
+
+Java Programming for Kids, Parents and Grandparents by Yakov Fain +
+    http://myflex.org/books/java4kids/java4kids.htm
+Java for kids: a guide for parents of aspiring coders +
+    https://www.idtech.com/blog/java-for-kids-a-guide-for-parents-of-new-coders
+Java Programming for Kids ?
+    https://yfain.github.io/Java4Kids/
+Java — Самоучитель +
+    http://proglang.su/java/characters
+Java Programming Exercises, Practice, Solution +
+    https://www.w3resource.com/java-exercises/index.php
+w3schools
+    https://www.w3schools.com/java/java_methods_param.asp
+
+
 2020.03.19
  =====================================================
 Install and first steps.
@@ -54,10 +69,20 @@ variables:
 Java Programming Exercises, Practice, Solution
     https://www.w3resource.com/java-exercises/index.php
 
-Strucutre:
-    Class--> Method
+Strucutre (p34):
+    Class--> Method-->Class's object
          --> Atribute
+    
+        Classes in Java may have methods and attributes.
+        Methods define actions that a class can perform.
+        Attributes describe the class.
+
         Классы Java могут иметь и методы и атрибуты.
         Методы определяют, что класс может сделать.
         Атрибуты – это характеристики класса.
-    
+
+primitive data types (p39/45)
+    Four data types for storing integer values – byte, short, int, and long.
+    Two data types for values with a decimal point – float and double.
+    One data type for storing a single character – char.
+    One logical data type called boolean that allows only two values: true or false.
