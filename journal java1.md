@@ -40,3 +40,15 @@ variables:
     boolean - stores values with two states: true or false
     https://www.w3schools.com/java/java_variables.asp
 
+Управляющие последовательности
+    \t	Символ табуляции.
+    \b	Символ возврата в тексте на один шаг назад или удаление одного символа в строке (backspace).
+    \n	Символ перехода на новую строку.
+    \r	Символ возврата каретки.
+    \f	Прогон страницы.
+    \'	Символ одинарной кавычки.
+    \"	Символ двойной кавычки.
+    \\	Символ обратной косой черты (\).
+    http://proglang.su/java/characters
+
+
