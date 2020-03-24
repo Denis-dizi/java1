@@ -51,4 +51,13 @@ variables:
     \\	Символ обратной косой черты (\).
     http://proglang.su/java/characters
 
+Java Programming Exercises, Practice, Solution
+    https://www.w3resource.com/java-exercises/index.php
 
+Strucutre:
+    Class--> Method
+         --> Atribute
+        Классы Java могут иметь и методы и атрибуты.
+        Методы определяют, что класс может сделать.
+        Атрибуты – это характеристики класса.
+    
