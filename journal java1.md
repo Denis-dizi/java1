@@ -26,23 +26,80 @@ Variables on PC (win7)
     Control Panel\All Control Panel Items\System
     Advanced syst set.
 New JAVA file
-Prohramm compilaion
+Programm compilaion (p20-Eng/p20-Ru)
 javac from JDK
     cd.. - 1 step up
     C:\>cd \Dropbox\_TMP tekushj\Git-K\java1\
     javac HelloWorld.java
-Start programm
+Run programm (p21/p21)
     java HelloWorld
 Registr important
 
-Eclipse IDE
+Eclipse IDE (p23/p23)
     https://www.eclipse.org/
     Eclipse vs Visual Studio Code
     https://www.worldranksolutions.com/microsoft-visual-studio-vs-eclipse/
 
-1-st tasks:
+1-st tasks (p33/p38):
     https://www.vogella.com/tutorials/Eclipse/article.html
+ -----------------------------------------------------
 
+Java Programming Exercises, Practice, Solution
+    https://www.w3resource.com/java-exercises/index.php
+
+Strucutre (p13/)
+        Classes - program elements that represent objects from the real world.
+        Car - Java class 
+        doors, wheels - attributes of this class, similarly to what the real cars have. 
+        After that, based on this class you can create another class, for example Ford, which will have all the features of the class Car plus something that only Fords have.
+
+How works (p29/p36)
+        public class HelloWorld {   - class
+        public static void main(String[] args) {    - method
+            System.out.println("Hello World! Que pasa??");  - method called by main. Body of method main.
+        }
+        }
+    -class HelloWorld has only one method main(), which is an entry point of a Java application (program).
+    -main is a method, because it has parentheses (круглые скобки) after the word main.
+    -Methods can call (use) other methods, for example our method main() calls the method println() to display the text Hello World on the screen.
+    - Each method starts with a declaration line called (строка объявления) a method signature:
+    public static void main(String[] args) - 
+        *public - /Who can access the method/ the method main() could be accessed by any other Java class or JVM itself.
+        *static - /Instructions on how to use it/ you don’t have to create an instance (a copy ) of HelloWorld object in memory to use this method.
+        *void - /Does the method return any data?/ means that the method main() doesn’t return any data to the calling program, which is Eclipse in this case. But if for example, a method had to perform some calculations, it could have returned a resulting number to its caller.
+        *main - name of the method.
+        *String[] args. - /The list of arguments – some data that could be given to the method/ In the method main() the String[] args means that this method can receive an array of Strings (массив объектов с типом String) that represent text data. The values that are being passed to a method are called arguments (аргументами или параметрами).
+    -программа может состоять из нескольких классов, но только один из них содержит метод main().
+    -The body of our method main()has only one line :
+        *System.out.println("Hello World");
+    -Java class usually have several methods: 
+    class Game have methods startGame(), stopGame(), readScore(), and so on.
+    -Every command or a method call (вызов метода) must end with a semicolon ;. 
+        *println() - method knows how to print data on the system console (command window).
+        *System.out - means that the variable "out" is defined inside the class "System" that comes with Java. After you type the word "System" and a dot, Eclipse will show you everything that is available in this class.
+        *out.println() - tells us that there is an object represented by a variable "out" and this “something called out” has a method called println(). The dot between a class and a method name means that this method exists inside this class. 
+    -Say you have a class PingPongGame that has a method saveScore(). This is how you can call this method for Dave who won three games:
+        *PingPongGame.saveScore("Dave", 3);
+        *argument (or parametr) - data between parentheses(скобки). These parameters are given to a method for some kind of processing.
+    -For example saving data on the disk: The method saveScore() has two arguments –a text string “Dave”, and the number 3.
+ -----------------------------------------------------
+Classes and Objects (p34/p40 Chapter 3)
+object-oriented style - programmers start with deciding which objects have to be included in the program and which Java classes will represent them.
+    Class--> Method-->Class's object
+         --> Atribute
+        -Classes in Java may have methods and attributes.
+        Methods define actions that a class can perform.
+        Attributes describe the class.
+        (Классы Java могут иметь и методы и атрибуты.
+        Методы определяют, что класс может сделать.
+        Атрибуты – это характеристики класса.)
+
+    *VideoGame - class
+    *start the game, stop it, save the score, and so on. - This class may have several methods, which can tell what objects of this class can do.
+    *price, screen color, number of remote - This class also may have some attributes or properties.
+
+
+-----------------------------------------------------
 comments:
     // - for short comments 
     /* */ - for longer.
@@ -66,23 +123,23 @@ variables:
     \\	Символ обратной косой черты (\).
     http://proglang.su/java/characters
 
-Java Programming Exercises, Practice, Solution
-    https://www.w3resource.com/java-exercises/index.php
-
-Strucutre (p34):
-    Class--> Method-->Class's object
-         --> Atribute
-    
-        Classes in Java may have methods and attributes.
-        Methods define actions that a class can perform.
-        Attributes describe the class.
-
-        Классы Java могут иметь и методы и атрибуты.
-        Методы определяют, что класс может сделать.
-        Атрибуты – это характеристики класса.
-
 primitive data types (p39/45)
-    Four data types for storing integer values – byte, short, int, and long.
+    Four data types for storing integer(целые) values – byte, short, int, and long.
     Two data types for values with a decimal point – float and double.
     One data type for storing a single character – char.
+    (for text - string)
     One logical data type called boolean that allows only two values: true or false.
+
+variable initialization: (p39/45)
+    char grade = 'A';
+    int chairs = 12;
+    boolean playSound = false;
+    double nationalIncome = 23863494965745.78;
+    float gamePrice = 12.50f;
+    long totalCars =4637283648392l;
+        In the last two lines f means float and l means long.
+    final - const. usually name final variables using capital letters:
+        final String STATE_CAPITAL="Washington";
+
+    bit - is the smallest piece of data that can be stored in memory. It can hold either 1 or 0.
+    byte - consists or eight bits.
