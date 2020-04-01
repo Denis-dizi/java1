@@ -40,6 +40,8 @@ Eclipse IDE (p23/p23)
     Eclipse vs Visual Studio Code
     https://www.worldranksolutions.com/microsoft-visual-studio-vs-eclipse/
 
+    Eclipse scrabbook (p37/p) - quickly test any code snippet.
+
 1-st tasks (p33/p38):
     https://www.vogella.com/tutorials/Eclipse/article.html
  -----------------------------------------------------
@@ -98,13 +100,33 @@ object-oriented style - programmers start with deciding which objects have to be
     *start the game, stop it, save the score, and so on. - This class may have several methods, which can tell what objects of this class can do.
     *price, screen color, number of remote - This class also may have some attributes or properties.
 
+    to create an instance of an object (p36/p42) - to create a copy of this object in the computer’s memory according to the definition of its class (создать экземпляр объекта).
+
+Data types
+    *variables (p37/p43) - have to be declared first, after this is you can use them. Variables represent attributes of a class, method arguments or could be used inside the method for a short-time storage of some data.
+    int x;
+    int y; 
+    x=5;
+    y=x+2;
+
+    int y=5;
+    y++;
+
+    int myScore=5;
+    myScore=myScore+1;
+
+    int myScore=10;
+    myScore--;
+    myScore=myScore*2;
+    myScore=myScore/3;
+    System.out.printIn("My score is" + myScore);
 
 -----------------------------------------------------
 comments:
     // - for short comments 
     /* */ - for longer.
 
-variables:
+variables (p36/p42):
     String - stores text, such as "Hello". String values are surrounded by double quotes
     int - stores integers (whole numbers), without decimals, such as 123 or -123
     float - stores floating point numbers, with decimals, such as 19.99 or -19.99
