@@ -7,3 +7,8 @@ class VideoGame {
     void saveScore(String payerName, int score){}
 }
 
+class GameBoyAdvanced {
+    String cartridgeType;
+    void startGame(){}
+    void stopGame(){}
+}
