@@ -103,6 +103,14 @@ object-oriented style - programmers start with deciding which objects have to be
     to create an instance of an object (p36/p42) - to create a copy of this object in the computer’s memory according to the definition of its class (создать экземпляр объекта).
 
 Data types
+    *variables (p36/p42):
+    String - stores text, such as "Hello". String values are surrounded by double quotes
+    int - stores integers (whole numbers), without decimals, such as 123 or -123
+    float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+    char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+    boolean - stores values with two states: true or false
+    https://www.w3schools.com/java/java_variables.asp
+
     *variables (p37/p43) - have to be declared first, after this is you can use them. Variables represent attributes of a class, method arguments or could be used inside the method for a short-time storage of some data.
     int x;
     int y; 
@@ -115,35 +123,15 @@ Data types
     int myScore=5;
     myScore=myScore+1;
 
+    myScore=myScore*2; is the same as myScore*=2;
+
     int myScore=10;
     myScore--;
     myScore=myScore*2;
     myScore=myScore/3;
     System.out.printIn("My score is" + myScore);
-
------------------------------------------------------
-comments:
-    // - for short comments 
-    /* */ - for longer.
-
-variables (p36/p42):
-    String - stores text, such as "Hello". String values are surrounded by double quotes
-    int - stores integers (whole numbers), without decimals, such as 123 or -123
-    float - stores floating point numbers, with decimals, such as 19.99 or -19.99
-    char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
-    boolean - stores values with two states: true or false
-    https://www.w3schools.com/java/java_variables.asp
-
-Управляющие последовательности
-    \t	Символ табуляции.
-    \b	Символ возврата в тексте на один шаг назад или удаление одного символа в строке (backspace).
-    \n	Символ перехода на новую строку.
-    \r	Символ возврата каретки.
-    \f	Прогон страницы.
-    \'	Символ одинарной кавычки.
-    \"	Символ двойной кавычки.
-    \\	Символ обратной косой черты (\).
-    http://proglang.su/java/characters
+    My Score is 6 - answer
+    concatenation (p38/p) - Creation of a String from pieces: glued from two pieces: the text “My score is ” and the value of the variable myScore.
 
 primitive data types (p39/45)
     Four data types for storing integer(целые) values – byte, short, int, and long.
@@ -160,6 +148,7 @@ variable initialization: (p39/45)
     float gamePrice = 12.50f;
     long totalCars =4637283648392l;
         In the last two lines f means float and l means long.
+        
     final - const. usually name final variables using capital letters:
         final String STATE_CAPITAL="Washington";
 
