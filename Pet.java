@@ -3,7 +3,7 @@ class;
 declare variables fur class attributes;
 does method should take arguments and return a value?;
 */
-public class pet1 {
+public class Pet {
     int age;
     float weighr;
     float height;
