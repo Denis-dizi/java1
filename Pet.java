@@ -21,7 +21,7 @@ public class Pet {
             "Hungry! Give me nachos!! ASAP!!!");
     }
     public String say(String aWord){
-        String petResponse = "OK" +aWord;
+        String petResponse = "OK " +aWord;
             return petResponse;
     }
 }
