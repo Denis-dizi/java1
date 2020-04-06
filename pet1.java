@@ -10,6 +10,9 @@ public class pet1 {
     String color;
 
     public void sleep (){
+        // public - method can be called from any Java class;
+        // void - it doesn't return any data
+        // () - method doesn't hav any arguments (doesn't need any data from outside)
         System.out.println(
             "Good night, see you tomorrow");
     }
