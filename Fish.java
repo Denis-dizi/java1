@@ -7,6 +7,10 @@ public class Fish extends Pet {
         System.out.println("I'm at " + currentDepth + " feet below see level");
         return currentDepth;
     }
+    //Method overriding (suppresing) (p49/p56):
+    public String say(String something) {
+        return "Don't you know fish do not talk?";
+    }
 }
 //dive() - method has an argument "howDeep".
 //howDeep - argument(параметр) tells how deep fish should go.

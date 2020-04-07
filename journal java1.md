@@ -160,3 +160,6 @@ variable initialization: (p39/45)
  Inheritance (наследование) (p45-Eng/p52-Ru)
  extends - keyword to inherit attributes from other class:
  class Fish extends Pet {}
+
+ Method overriding (suppresing) (p49/p56)
+ declare in a subclass a method with exactly the same signature as in its superclass, the method of the subclass will be used instead of the method of the superclass.
