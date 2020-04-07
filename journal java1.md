@@ -12,6 +12,10 @@ Java Programming Exercises, Practice, Solution +
 w3schools
     https://www.w3schools.com/java/java_methods_param.asp
 
+The Java™ Tutorials
+    https://docs.oracle.com/javase/tutorial/index.html
+Lesson: Object-Oriented Programming Concepts
+    https://docs.oracle.com/javase/tutorial/java/concepts/index.html
 
 2020.03.19
  =====================================================
@@ -163,3 +167,5 @@ variable initialization: (p39/45)
 
  Method overriding (suppresing) (p49/p56)
  declare in a subclass a method with exactly the same signature as in its superclass, the method of the subclass will be used instead of the method of the superclass.
+ If a method signature (заголовок метода) includes the keyword "final", such method can not be overridden, for example: 
+ final public void sleep(){…} - can not be overridden
