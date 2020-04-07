@@ -7,3 +7,5 @@ public class FishMaster {
         myFish.sleep();
     }
 }
+//Метод main() в классе FishMaster создает экземпляр объекта Fish и дважды вызывает его метод dive() с разными параметрами.
+//The method main() instantiates the object Fish and calls its method dive() twice with different arguments.

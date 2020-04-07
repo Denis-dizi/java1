@@ -1,5 +1,5 @@
 public class Fish extends Pet {
-    //p47/
+    //p47/p54-Ru
     int currentDepth=0;
     public int dive (int howDeep) {
         currentDepth=currentDepth + howDeep;
@@ -8,6 +8,6 @@ public class Fish extends Pet {
         return currentDepth;
     }
 }
-//dive() - method has an argiment "howDeep".
-//howDeep - argument tells how deep fish should go.
+//dive() - method has an argument "howDeep".
+//howDeep - argument(параметр) tells how deep fish should go.
 //currentDepth - class variable will store and update depth every call method "dive".
