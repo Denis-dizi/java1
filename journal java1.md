@@ -154,3 +154,9 @@ variable initialization: (p39/45)
 
     bit - is the smallest piece of data that can be stored in memory. It can hold either 1 or 0.
     byte - consists or eight bits.
+
+    2020.04.07
+ =====================================================
+ Inheritance (наследование) (p45-Eng/p52-Ru)
+ extends - keyword to inherit attributes from other class:
+ class Fish extends Pet {}

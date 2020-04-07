@@ -1,7 +1,7 @@
 class VideoGame {
-    //p41/p35
-    int color;
-    String int price;
+    //p35/p41
+    String color;
+    int price;
     void start(){}
     void stop(){}
     void saveScore(String payerName, int score){}
