@@ -8,10 +8,10 @@ public class Car {
         System.out.println(
             "Stoped");
     }
-    int distance=0
+    int distance=0;
     public int drive (int howlong){
-        distance=howlong*60;
+        distance=distance + howlong*60;
         System.out.println("Have driven " + distance + " km");
-       // return distance;
+        return distance;
     }
 }
