@@ -1,4 +1,5 @@
 public class Fish extends Pet {
+    //p47/
     int currentDepth=0;
     public int dive (int howDeep) {
         currentDepth=currentDepth + howDeep;
