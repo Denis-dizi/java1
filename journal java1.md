@@ -161,11 +161,20 @@ variable initialization: (p39/45)
 
     2020.04.07
  =====================================================
- Inheritance (наследование) (p45-Eng/p52-Ru)
+ *Inheritance (наследование) (p45-Eng/p52-Ru)
  extends - keyword to inherit attributes from other class:
  class Fish extends Pet {}
 
- Method overriding (suppresing) (p49/p56)
+ *Method overriding (suppresing) (p49/p56)
  declare in a subclass a method with exactly the same signature as in its superclass, the method of the subclass will be used instead of the method of the superclass.
  If a method signature (заголовок метода) includes the keyword "final", such method can not be overridden, for example: 
  final public void sleep(){…} - can not be overridden
+
+    2020.04.09
+ =====================================================
+ *Comments (p52/p59)
+ // xxxx
+ /* xxxx */
+ /** xxxx */ - only fur most important comments. "javadoc" extracts to separete "help" file.
+
+*If/Else (p53/p60)
