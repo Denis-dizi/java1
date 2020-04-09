@@ -1,5 +1,8 @@
 public class Fish extends Pet {
     //p47/p54-Ru
+    // Inheritance (наследование) (p45-Eng/p52-Ru)
+    // extends - keyword to inherit attributes from other class:
+    // class Fish extends Pet {}
     int currentDepth=0;
     public int dive (int howDeep) {
         currentDepth=currentDepth + howDeep;

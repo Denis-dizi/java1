@@ -11,7 +11,7 @@ public class Car {
     int distance=0;
     public int drive (int howlong){
         distance = distance + howlong*60;
-        System.out.println("Have driven for a " + howlong + " hours and passed " + distance + " km");
+        System.out.println("Have driven for a " + howlong + " hours and passed " + distance + " km.");
         return distance;
     }
 }
