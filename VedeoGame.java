@@ -6,10 +6,3 @@ class VideoGame {
     void stop(){}
     void saveScore(String payerName, int score){}
 }
-
-class GameBoyAdvanced {
-    String cartridgeType;
-    int screenwith;
-    void startGame(){}
-    void stopGame(){}
-}
