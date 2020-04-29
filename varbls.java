@@ -4,6 +4,6 @@ public class varbls {
     myScore--;
     myScore=myScore*2;
     myScore=myScore/3;
-    System.out.printIn("My score is" + myScore);
+    System.out.println("My score is " + myScore + ".");
     }
 }
