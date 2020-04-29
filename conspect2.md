@@ -12,3 +12,12 @@ comments:
     \"	Символ двойной кавычки.
     \\	Символ обратной косой черты (\).
     http://proglang.su/java/characters
+
+
+primitive data types (p39/45)
+    storing integer(целые) values – byte, short, int, long.
+    values with a decimal point – float, double.
+    storing a single character – char.
+        (for text - string)
+    logical data type - boolean allows only: true / false.
+        final String STATE_CAPITAL="Washington";
