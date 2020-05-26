@@ -9,6 +9,7 @@ varbls (p/p43)- variables
 Pet  (p40-Eng/p46-Ru) - SuperClass
 PetMaster
 
+Fish1
 Fish (p47/p54-Ru) - extends Pet
 FishMaster
 
