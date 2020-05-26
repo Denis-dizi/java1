@@ -5,6 +5,12 @@ public class FishMaster2 {
         myFish.dive(2);
         myFish.dive(3);
         myFish.sleep();
+        myFish.eat();
+        System.out.println(myFish.say("You!"));
+        // or:
+        String fishSay;
+        fishSay = myFish.say("Bu!");
+        System.out.println(fishSay);
     }
 }
 //Метод main() в классе FishMaster создает экземпляр объекта Fish и дважды вызывает его метод dive() с разными параметрами.

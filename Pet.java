@@ -23,7 +23,7 @@ public class Pet {
     }
     public String say(String aWord){
         // p43/p49 !!!!
-        String petResponse = "OK " +aWord;
+        String petResponse = "OK. " +aWord;
            return petResponse;
     }
 }
