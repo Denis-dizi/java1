@@ -10,6 +10,8 @@ Pet  (p40-Eng/p46-Ru) - SuperClass
 PetMaster
 
 Fish1
+Fish2
+FishMaster2
 Fish (p47/p54-Ru) - extends Pet
 FishMaster
 
