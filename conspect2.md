@@ -21,3 +21,5 @@ primitive data types (p39/45)
         (for text - string)
     logical data type - boolean allows only: true / false.
         final String STATE_CAPITAL="Washington";
+
+Ctrl+Shift+P --> Java: Configure Java Runtime. /// Java: Get Started.
