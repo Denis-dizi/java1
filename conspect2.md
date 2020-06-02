@@ -23,3 +23,8 @@ primitive data types (p39/45)
         final String STATE_CAPITAL="Washington";
 
 Ctrl+Shift+P --> Java: Configure Java Runtime. /// Java: Get Started.
+
+https://code.visualstudio.com/docs/java/java-tutorial#_creating-a-source-code-file
+New file **.java
+Type:
+class --> main  --> sysout
