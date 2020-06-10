@@ -1,5 +1,5 @@
 public class ReportCard {
-        //p/p64-Ru
+        //p56/p64-Ru
     public char convertGrades (int testResult) {
             char grade;
             if (testResult >90) {

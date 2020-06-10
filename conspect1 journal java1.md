@@ -178,3 +178,39 @@ variable initialization: (p39/45)
  /** xxxx */ - only fur most important comments. "javadoc" extracts to separete "help" file.
 
 *If/Else (p53/p60)
+
+2020.06.10
+ =====================================================
+ *Logical operators (p55/p62-Ru)
+ or - if ANY of two conditions is TRUE, result of expression is TRUE.
+    Exmp.: if the name of the state is Texas or California, add the state tax to the price of every item.
+ | vs ||
+    | - JVM will evalute both expressions,
+    || - if first expression - true, the second expr. won't be cheked.
+    if (state.equals("Texas") || state.equals("California"));
+ and - & - whole expression is TRUE if EVERY part is TRUE.
+    && - (double ampersand) if first expr. is false, the second expr. won't be cheked.
+    if (state.equals("New York") && price >110);
+ not - ! - exclamation point, it changes expression to the opposite meaning. Exmp.: to perform some actions only if the state is not New York:
+    if (!state.equals("New York"));
+    if (price < 50);  =   if (!(price >=50));
+
+ *Conditional operator (условный оператор)
+        discount = price > 50? 10:5;
+    If price > 50, the variable discount will get the value of 10, 
+    otherwise the value of 5. It’s just a shorter replacement of a regular if statement:
+            if (price > 50){
+            discount = 10;
+            } else {
+            discount = 5;
+            }
+ *Else If
+        if (testResult >90) {
+            grade = 'A';
+        } else if (testResult >=80 && testResult < 90){
+            grade = 'B';
+        } else if (testResult >=70 && testResult < 80){
+            grade = 'C';
+        } else {
+            grade = 'D';
+
