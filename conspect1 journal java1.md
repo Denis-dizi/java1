@@ -213,4 +213,6 @@ variable initialization: (p39/45)
             grade = 'C';
         } else {
             grade = 'D';
+ *switch (p57/p65-Ru)
+    alternative to if. The variable after the keyword switch is evaluated, and program goes only to one of the case statements.
 
